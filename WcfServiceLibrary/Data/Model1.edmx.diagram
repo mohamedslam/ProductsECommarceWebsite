@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6c4fd92edae4157ab443b605cfcc648" Name="Diagram1">
+        <EntityTypeShape EntityType="ProductsHModel.Assay" Width="1.5" PointX="15.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_athanPlayer" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_attendance" Width="1.5" PointX="23" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_AzanRules" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_CityPray" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_CountryPray" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_DayState" Width="1.5" PointX="20.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_DelayandAbsenceSetting" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_EmpHolidayRecord" Width="1.5" PointX="28.25" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_EmpPermission" Width="1.5" PointX="26" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_EmpSettings" Width="1.5" PointX="8" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_FutureShift" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_Holiday" Width="1.5" PointX="26" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_Permission" Width="1.5" PointX="23.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_pray" Width="1.5" PointX="2.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_PrayRule" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_prevEmpHoliday" Width="1.5" PointX="8" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_PublicHolidayRecord" Width="1.5" PointX="28.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_Shifts" Width="1.5" PointX="20.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_ShiftsTimes" Width="1.5" PointX="26" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_UsersLogs" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_WeekDays" Width="1.5" PointX="20.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_workTimeRecord" Width="1.5" PointX="20.75" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttachedDocumentsType" Width="1.5" PointX="19.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttachmentOwnType" Width="1.5" PointX="21.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttachmentSystemFile" Width="1.5" PointX="2.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttDevice" Width="1.5" PointX="13.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttDevicesUser" Width="1.5" PointX="16" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttendanceCheckInOut" Width="1.5" PointX="22.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttendanceCheckType" Width="1.5" PointX="22.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttendanceRule" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AttendanceTime" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AzanCity" Width="1.5" PointX="0.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AzanCountry" Width="1.5" PointX="2.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AzanRule" Width="1.5" PointX="25.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AzanSound" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.BankHistory" Width="1.5" PointX="26.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.BankHistoryPlaning" Width="1.5" PointX="27.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.BankInfo" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.BSC_Company" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.BSC_TimeRecordAction" Width="1.5" PointX="15.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CarsData" Width="1.5" PointX="28.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CashairUser" Width="1.5" PointX="28.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Category" Width="1.5" PointX="7.5" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ChequesInfo" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.City" Width="1.5" PointX="17.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Color" Width="1.5" PointX="13" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Company" Width="1.5" PointX="9.75" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Companies_Sup" Width="1.5" PointX="12" PointY="59" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CompanyBranch" Width="1.5" PointX="25.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CompanyDepartJopPosition" Width="1.5" PointX="27.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CompanyDepartment" Width="1.5" PointX="3.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CompanyInfo" Width="1.5" PointX="29.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ContractItemDescription" Width="1.5" PointX="12.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ContractItem" Width="1.5" PointX="10.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ContractPeriod" Width="1.5" PointX="17.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Contract" Width="1.5" PointX="10" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CostCenter" Width="1.5" PointX="29.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Country" Width="1.5" PointX="12.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CountryData" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CountryInformation" Width="1.5" PointX="30.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CurentVer" Width="1.5" PointX="30.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CustomerGroup" Width="1.5" PointX="30.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CustomerGuarantor" Width="1.5" PointX="30.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CustomerHistory" Width="1.5" PointX="22.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CustomerHistPlaningPay" Width="1.5" PointX="31.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.CustomerInfo" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLBalanceForFirstPeriod" Width="1.5" PointX="5.25" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLBalanceForLastPeriod" Width="1.5" PointX="5.25" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLMaterialsRequest" Width="1.5" PointX="17.25" PointY="53" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLPeriodicalInventory" Width="1.5" PointX="5.25" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLProcessingReturnsTechnician" Width="1.5" PointX="30.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLProduct" Width="1.5" PointX="31.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLPurchaseBill" Width="1.5" PointX="17.25" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLPurchaseCheck" Width="1.5" PointX="14.25" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLPurchaseCheckTest" Width="1.5" PointX="20.25" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLPurchaseOrder" Width="1.5" PointX="29.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLPurchaseReturn" Width="1.5" PointX="20.25" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLReceiptOfMaterialsRequest" Width="1.5" PointX="23.25" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLSale" Width="1.5" PointX="31.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLSalesReturn" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLStoreReturn" Width="1.5" PointX="22.75" PointY="49.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLTransferMaterial" Width="1.5" PointX="14.25" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLTransferMaterialsNew" Width="1.5" PointX="14.25" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLTransferRequest" Width="1.5" PointX="5.25" PointY="62.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.DTLTransferRequestTest" Width="1.5" PointX="8.25" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EducationGrade" Width="1.5" PointX="32.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ElectronicFormsMain" Width="1.5" PointX="32.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmplCour" Width="1.5" PointX="17" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmplDepartureData" Width="1.5" PointX="32.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmplDepartureMain" Width="1.5" PointX="32.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmplFurlough" Width="1.5" PointX="33.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmplLanguge" Width="1.5" PointX="11" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmployeDepartment" Width="1.5" PointX="10" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmployedInfo" Width="1.5" PointX="5.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmployeeSalaryItem" Width="1.5" PointX="14" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmployeesShift" Width="1.5" PointX="20" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmploymentStatu" Width="1.5" PointX="33.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmplPayRoll" Width="1.5" PointX="24.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmplScholastic" Width="1.5" PointX="8" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmplWorkExperince" Width="1.5" PointX="8" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmpSponsor" Width="1.5" PointX="3.5" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.EmpStatu" Width="1.5" PointX="33.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ExpenditureHistory" Width="1.5" PointX="26.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.forms_number" Width="1.5" PointX="33.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Gender" Width="1.5" PointX="33.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.GradeDegree" Width="1.5" PointX="14.75" PointY="69.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDBalanceForFirstPeriod" Width="1.5" PointX="3" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDBalanceForLastPeriod" Width="1.5" PointX="3" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDMaterialsrequest" Width="1.5" PointX="6" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDPeriodicalInventory" Width="1.5" PointX="3" PointY="52.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDProcessingReturnsTechnician" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDProduct" Width="1.5" PointX="34.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDPurchaseBill" Width="1.5" PointX="18" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDPurchaseCheck" Width="1.5" PointX="18" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDPurchaseOrder" Width="1.5" PointX="34.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDPurchaseOrderSetting" Width="1.5" PointX="34.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDPurchaseReturn" Width="1.5" PointX="18" PointY="61.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDReceiptOfMaterialsRequest" Width="1.5" PointX="8.25" PointY="39.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDSale" Width="1.5" PointX="20.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDSalesReturn" Width="1.5" PointX="33.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDStoreReturn" Width="1.5" PointX="16.5" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDTransferMaterial" Width="1.5" PointX="8" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HDTransferRequest" Width="1.5" PointX="3" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HRDepartment" Width="1.5" PointX="7.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HRDeptContractItemRelation" Width="1.5" PointX="13" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.HRJob" Width="1.5" PointX="5.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.IdBillType" Width="1.5" PointX="34.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InfoCompany" Width="1.5" PointX="35.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Installment" Width="1.5" PointX="12.25" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InventoriesCompare" Width="1.5" PointX="35.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InventoryData" Width="1.5" PointX="20.25" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InventoryDataItemFirstPeriod" Width="1.5" PointX="35.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InventoryDataItemLastPeriod" Width="1.5" PointX="35.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InventoryDataLog" Width="1.5" PointX="9" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InventoryMainFirstPeriod" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InventoryMainLastPeriod" Width="1.5" PointX="36.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.InventoryPolicey" Width="1.5" PointX="36.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Item_TransactionType" Width="1.5" PointX="36.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ItemAmount" Width="1.5" PointX="3" PointY="34.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ItemComplex" Width="1.5" PointX="36.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ItemControl" Width="1.5" PointX="12" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ItemPriceLog" Width="1.5" PointX="14.25" PointY="76.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Item" Width="1.5" PointX="9.75" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ItemSource" Width="1.5" PointX="17.25" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ItemSupplier" Width="1.5" PointX="37.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Language" Width="1.5" PointX="8.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LeavePeriodCoding" Width="1.5" PointX="37.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LeaveTypeDept" Width="1.5" PointX="37.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LeaveTypeEmployeementStatu" Width="1.5" PointX="26.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LeaveTypeJob" Width="1.5" PointX="28.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LeavingRuleFrequencey" Width="1.5" PointX="37.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LeavingRule" Width="1.5" PointX="30.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LedgerData" Width="1.5" PointX="37.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Loan" Width="1.5" PointX="37.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LoanPayment" Width="1.5" PointX="38.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MartialStatu" Width="1.5" PointX="38.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MaterialsPayoffReason" Width="1.5" PointX="20.5" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MeasureCard" Width="1.5" PointX="17.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MemberShip" Width="1.5" PointX="38.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MilartyStatu" Width="1.5" PointX="38.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ModelUnit" Width="1.5" PointX="0.75" PointY="34.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MosiratElrwatebLOG" Width="1.5" PointX="38.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MosiratElrwtebDTL" Width="1.5" PointX="22.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MosiratElrwtebHD" Width="1.5" PointX="32.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MotivationAndDeduction" Width="1.5" PointX="39.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MotivationAndDeductionsByDay" Width="1.5" PointX="39.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Nationality" Width="1.5" PointX="39.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.NationalType" Width="1.5" PointX="39.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.OP_CodeMask" Width="1.5" PointX="39.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.OwnershipData" Width="1.5" PointX="39.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.PayingType" Width="1.5" PointX="39.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Payment_Data" Width="1.5" PointX="14.5" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Payment_Permission" Width="1.5" PointX="17.5" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Permission" Width="1.5" PointX="40.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Product_Color_Realation" Width="1.5" PointX="15.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Product_Item_Relation" Width="1.5" PointX="40.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Product" Width="1.5" PointX="13" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ProdustUnit" Width="1.5" PointX="10.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.publicvacation" Width="1.5" PointX="40.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.PublicVacationName" Width="1.5" PointX="40.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.PurchasesDataItem" Width="1.5" PointX="24.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.PurchasesItemSNAndExpiredDate" Width="1.5" PointX="26.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.PurchasesMain" Width="1.5" PointX="34.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.PurchasesMainReturn" Width="1.5" PointX="36.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.PurchasesReturnsDataItem" Width="1.5" PointX="41.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ReceiveStage" Width="1.5" PointX="19.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Relgion" Width="1.5" PointX="23.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Returns_Type" Width="1.5" PointX="41.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ReturnsMoneyAction" Width="1.5" PointX="41.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Safe_AllData" Width="1.5" PointX="41.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SafeHistory" Width="1.5" PointX="41.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SafeHistoryPlaning" Width="1.5" PointX="41.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SafeInfo" Width="1.5" PointX="12.25" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalaryItem" Width="1.5" PointX="11.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesDataItem" Width="1.5" PointX="41.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesDataPublic" Width="1.5" PointX="42.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesItemSNAndExpiredDate" Width="1.5" PointX="42.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesMain" Width="1.5" PointX="42.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesMainPublic" Width="1.5" PointX="28.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesMainPublicReturn" Width="1.5" PointX="30.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesMainReturn" Width="1.5" PointX="38.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesPublicReturnsDataItem" Width="1.5" PointX="43.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SalesReturnsDataItem" Width="1.5" PointX="43.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SettingApllicationInterface" Width="1.5" PointX="43.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SettingApplicationActiveCode" Width="1.5" PointX="43.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ShiftType" Width="1.5" PointX="17.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Skill" Width="1.5" PointX="43.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.State" Width="1.5" PointX="15" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.StoresCompany" Width="1.5" PointX="0.75" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SupplierGroup" Width="1.5" PointX="13.5" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SupplierHistory" Width="1.5" PointX="43.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SupplierHistPlaningPay" Width="1.5" PointX="43.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SupplierInfo" Width="1.5" PointX="15.75" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SupplierInfo_Detail" Width="1.5" PointX="18" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SupplierUnite" Width="1.5" PointX="44.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SystemExceptionLogView" Width="1.5" PointX="44.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.SystemMessage" Width="1.5" PointX="44.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.TempEmployeesInfo" Width="1.5" PointX="25.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.TerminationReason" Width="1.5" PointX="44.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.TestImportFromExcel" Width="1.5" PointX="45.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Transaction" Width="1.5" PointX="45.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.TreeAccountChart" Width="1.5" PointX="45.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.TreeItemsApplication" Width="1.5" PointX="45.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.TreeMenuApplication" Width="1.5" PointX="45.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.TreeUserMenuApplication" Width="1.5" PointX="45.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.UnitModel" Width="1.5" PointX="1.5" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.UserGroup" Width="1.5" PointX="45.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.UserLogInTransaction" Width="1.5" PointX="46.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.UserName" Width="1.5" PointX="8" PointY="71.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.vacation" Width="1.5" PointX="46.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.vacationType" Width="1.5" PointX="46.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Version" Width="1.5" PointX="46.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.WorkDay" Width="1.5" PointX="40.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AllAppCategory" Width="1.5" PointX="5.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.BSC_TimeRecord" Width="1.5" PointX="42.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.BSC_TimeRecordData" Width="1.5" PointX="44.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.ItemsTest" Width="1.5" PointX="46.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.lawyer" Width="1.5" PointX="46.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.LedgersGenral" Width="1.5" PointX="47.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.MainTreeCategoryCode" Width="1.5" PointX="47.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.mob_type" Width="1.5" PointX="47.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.OP_RepDefine" Width="1.5" PointX="47.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Op_ReportData" Width="1.5" PointX="47.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Ownership" Width="1.5" PointX="32.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Profit" Width="1.5" PointX="34.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Purchases_AllDatat" Width="1.5" PointX="47.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.sysdiagram" Width="1.5" PointX="48.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.AccountantPeriodYear" Width="1.5" PointX="48.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.att_AllYear" Width="1.5" PointX="48.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_AccountantAssets" Width="1.5" PointX="25.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_AccountantCurrantPeriod" Width="1.5" PointX="48.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_AccountantJournalGroup" Width="1.5" PointX="27.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_AccountantJournalMethod" Width="1.5" PointX="29.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_All_Contract_Info" Width="1.5" PointX="36.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_AllBankHistory" Width="1.5" PointX="48.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_AllCustHist" Width="1.5" PointX="49.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_AllempData" Width="1.5" PointX="49.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_att_Attendance" Width="1.5" PointX="49.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_contractHdData" Width="1.5" PointX="49.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_Contracts_Payment_Details" Width="1.5" PointX="50.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_CostCenters" Width="1.5" PointX="50.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_Country" Width="1.5" PointX="2.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_CountryState" Width="1.5" PointX="50.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_CountryStateTown" Width="1.5" PointX="50.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_CustomerNetAccount" Width="1.5" PointX="50.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_FullContractData" Width="1.5" PointX="31.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_GeturentStock" Width="1.5" PointX="33.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_InventoryDataStock" Width="1.5" PointX="38.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_ItemAmount" Width="1.5" PointX="40.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_ItemsFullData" Width="1.5" PointX="42.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_ItemsSearch" Width="1.5" PointX="50.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_LoanData" Width="1.5" PointX="51.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_MosiratElrwateb" Width="1.5" PointX="51.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_PurchaseReturnAllData" Width="1.5" PointX="27.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_ReceiptOfMaterialsRequest" Width="1.5" PointX="51.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_RequestData" Width="1.5" PointX="51.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_RequestDtlwithCurentStock" Width="1.5" PointX="51.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SalesAllData" Width="1.5" PointX="51.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SalesAllDataPublic" Width="1.5" PointX="52.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SalesPublicReturnAllData" Width="1.5" PointX="52.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SalesReturnAllData" Width="1.5" PointX="52.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.v_StoreReturns" Width="1.5" PointX="52.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SummaryBank" Width="1.5" PointX="52.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SummaryCash" Width="1.5" PointX="53.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SummaryCustomer" Width="1.5" PointX="53.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SummaryPurchaseReturn" Width="1.5" PointX="53.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SummaryPurchases" Width="1.5" PointX="53.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SummarySalesPublic" Width="1.5" PointX="53.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SummarySalesPublicReturn" Width="1.5" PointX="53.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SummarySalesReturn" Width="1.5" PointX="35.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SupplierNetAccount" Width="1.5" PointX="53.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.V_SupplierSummaryAccount" Width="1.5" PointX="37.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.View_HRDE" Width="1.5" PointX="39.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.View_MosiratElrwatepRPR" Width="1.5" PointX="52.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.TestClass" Width="1.5" PointX="53.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductsHModel.Test" Width="1.5" PointX="54.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ProductsHModel.FK_Assay_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Assay_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_MeasureCard_Assay" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_attendance_att_DayState" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_attendance_att_Shifts" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_attendance_att_WeekDays" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_attendance_att_workTimeRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_attendance_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_Holiday_att_DayState" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_EmpHolidayRecord_att_Holiday" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_EmpHolidayRecord_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_EmpPermission_att_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_EmpPermission_att_workTimeRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_EmpPermission_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_EmpSettings_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_Holiday_Relgion" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_PublicHolidayRecord_att_Holiday" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_prevEmpHoliday_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_BL_ShiftsTimes_BL_Shifts" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_ShiftsTimes_att_WeekDays" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_att_ShiftsTimes_att_workTimeRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_AttDevicesUsers_AttDevices" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_AttDevicesUsers_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ChequesInfo_BankInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Items_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Cities_States" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Product_Color_Realation_Colors" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Companies_Sup_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ItemControl_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ContractItemDescription_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DeptContractItemRelation_ContractItems" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Contracts_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Contracts_HRDepartments" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Installment_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Payment_Permission_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_States_Countries" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLBalanceForFirstPeriod_HDBalanceForFirstPeriod" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLBalanceForFirstPeriod_ItemAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLBalanceForFirstPeriod_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLBalanceForLastPeriod_AccountantPeriodYear1" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLBalanceForLastPeriod_AccountantPeriodYear2" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLBalanceForLastPeriod_HDBalanceForLastPeriod" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLMaterialsRequest_ItemAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLMaterialsRequest_ItemAmount1" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLMaterialsRequest_ItemControl1" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLMaterialsRequest_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPeriodicalInventory_HDPeriodicalInventory" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPeriodicalInventory_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseBill_HDPurchaseBill" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseBill_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseBill_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseCheck_HDPurchaseCheck" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseCheck_ItemAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseCheck_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseCheck_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseCheckTest_HDPurchaseCheck" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseCheckTest_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseReturn_HDPurchaseBill" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseReturn_HDPurchaseReturn" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseReturn_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLPurchaseReturn_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLReceiptOfMaterialsRequest_HDReceiptOfMaterialsRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLReceiptOfMaterialsRequest_ItemAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLReceiptOfMaterialsRequest_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLReceiptOfMaterialsRequest_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLStoreReturns_HDStoreReturns" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLStoreReturns_ItemAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLStoreReturns_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLStoreReturns_MaterialsPayoffReasons" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLStoreReturns_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferMaterials_HDTransferMaterials" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferMaterials_ItemAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferMaterials_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferMaterials_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferMaterialsNew_HDTransferMaterials" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferMaterialsNew_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferRequest_HDTransferRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferRequest_ItemAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferRequest_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferRequest_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferRequestTest_HDTransferRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DTLTransferRequestTest_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmplCours_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmplCours_GradeDegrees" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmplLanguge_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmplLanguge_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmployeDepartment_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmployeDepartment_HRDepartments" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmployedInfo_EmpSponsor" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmployeeSalaryItem_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmployeesShift_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmplScholastic_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmplWorkExperince_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDMaterialsrequest_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDPurchaseCheck_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDPurchaseReturn_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDReceiptOfMaterialsRequest_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDTransferMaterials_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_UserNames_EmployedInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmployeeSalaryItem_SalaryItems" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_EmployeesShift_ShiftTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDBalanceForFirstPeriod_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDBalanceForLastPeriod_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDMaterialsrequest_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDReceiptOfMaterialsRequest_HDMaterialsrequest" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDPeriodicalInventory_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDPurchaseCheck_HDPurchaseBill" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDPurchaseReturn_SupplierInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDReceiptOfMaterialsRequest_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDStoreReturns_HDReceiptOfMaterialsRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDStoreReturns_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDTransferMaterials_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_HDTransferRequest_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_DeptContractItemRelation_HRDepartments" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Payment_Data_Installment" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Payment_Permission_Installment" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_InventoryData_ItemAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_InventoryData_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_InventoryDataLog_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_InventoryDataLog_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_InventoryDataLog_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ItemAmount_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ItemControl_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ItemControl_ModelUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ItemControl_StoresCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ItemPriceLog_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ItemSource_ItemControl" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ItemSource_SupplierInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ReceiveStages_MeasureCard1" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_ModelUnits_UnitModels" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Payment_Data_Payment_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Payment_Data_SafeInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Product_Color_Realation_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_Products_ProdustUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_SupplierInfo_SupplierGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductsHModel.FK_SupplierInfo_Detail_SupplierInfo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
