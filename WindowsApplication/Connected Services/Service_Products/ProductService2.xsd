@@ -26,7 +26,7 @@
   <xs:element name="GetProductByIDResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DTO.Products" minOccurs="0" name="GetProductByIDResult" nillable="true" type="q3:Products" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DTO.Products" minOccurs="0" name="GetProductByIDResult" nillable="true" type="q3:ProductDto" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -38,7 +38,7 @@
   <xs:element name="GetAllProductsResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DTO.Products" minOccurs="0" name="GetAllProductsResult" nillable="true" type="q4:ArrayOfProducts" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DTO.Products" minOccurs="0" name="GetAllProductsResult" nillable="true" type="q4:ArrayOfProductDto" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

@@ -63,14 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customers\Customer.cs" />
-    <Compile Include="Products\Product.cs" />
+    <Compile Include="Cart\CartDto.cs" />
+    <Compile Include="Cart\ItemsProducts.cs" />
+    <Compile Include="Customers\CustomerDto.cs" />
+    <Compile Include="Products\ProductDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vendors\Vendor.cs" />
+    <Compile Include="Vendors\VendorDto.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Cart\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="web.config" />
     <None Include="web.Debug.config">

@@ -5,25 +5,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WcfServiceLibrary.Class;
+using WcfServiceLibrary.Data;
+ 
 namespace WcfServiceLibrary
 {
    public class DALProducts:DALBase
     {
-        public List<Products> GetProducts()
+        public List<ProductDto> GetProducts()
         {
             var rst = from t in DbContecxt.ItemControls
-                      select new Products {
+                      select new ProductDto {
                           ProductId=t.ID,
                           Price=t.DefultPrice,
                           ProductName=t.Name,
                       };
             return rst.ToList();
         }
-        public Products GetProductById(long ProductID)
+        public ProductDto GetProductById(long ProductID)
         {
             var rst = (from t in DbContecxt.ItemControls
                       where t.ID== ProductID
-                      select new Products
+                      select new ProductDto
                       {
                           ProductId = t.ID,
                           Price = t.DefultPrice,

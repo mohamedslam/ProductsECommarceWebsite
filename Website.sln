@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{5C8BAE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{89873921-461A-4D74-80AD-111EA2474A07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductWcfServiceHost", "ProductWcfServiceHost\ProductWcfServiceHost.csproj", "{1FBD6AE0-5A6C-48EC-A714-5C106A3619AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceHost", "ProductWcfServiceHost\WcfServiceHost.csproj", "{1FBD6AE0-5A6C-48EC-A714-5C106A3619AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AEFD6D7D-1772-43C2-BA3F-C8F7DA14642A}"
 EndProject

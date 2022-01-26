@@ -6,7 +6,7 @@ using System.Web;
 
 namespace DTO.Products
 {
-    public class Products
+    public class ProductDto
     {
         [DataMember]
         public long ProductId { get; set; }
@@ -14,5 +14,6 @@ namespace DTO.Products
         public string ProductName { get; set; }
         [DataMember]
         public double? Price { get; set; }
+       // public Vendors.VendorDto Vendor{ get;set;}
     }
 }

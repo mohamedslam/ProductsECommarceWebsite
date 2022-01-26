@@ -76,9 +76,9 @@ namespace WindowsApplication.Service_Products {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Products", Namespace="http://schemas.datacontract.org/2004/07/DTO.Products")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ProductDto", Namespace="http://schemas.datacontract.org/2004/07/DTO.Products")]
     [System.SerializableAttribute()]
-    public partial class Products : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+    public partial class ProductDto : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
@@ -152,52 +152,52 @@ namespace WindowsApplication.Service_Products {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Service_Products.IProducsService")]
-    public interface IProducsService {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Service_Products.IProducs")]
+    public interface IProducs {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducsService/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IProducsService/GetDataUsingDataContractResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducs/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IProducs/GetDataUsingDataContractResponse")]
         WindowsApplication.Service_Products.CompositeType GetDataUsingDataContract(WindowsApplication.Service_Products.CompositeType composite);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducsService/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IProducsService/GetDataUsingDataContractResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducs/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IProducs/GetDataUsingDataContractResponse")]
         System.Threading.Tasks.Task<WindowsApplication.Service_Products.CompositeType> GetDataUsingDataContractAsync(WindowsApplication.Service_Products.CompositeType composite);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducsService/GetProductByID", ReplyAction="http://tempuri.org/IProducsService/GetProductByIDResponse")]
-        WindowsApplication.Service_Products.Products GetProductByID(long productId);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducs/GetProductByID", ReplyAction="http://tempuri.org/IProducs/GetProductByIDResponse")]
+        WindowsApplication.Service_Products.ProductDto GetProductByID(long productId);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducsService/GetProductByID", ReplyAction="http://tempuri.org/IProducsService/GetProductByIDResponse")]
-        System.Threading.Tasks.Task<WindowsApplication.Service_Products.Products> GetProductByIDAsync(long productId);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducs/GetProductByID", ReplyAction="http://tempuri.org/IProducs/GetProductByIDResponse")]
+        System.Threading.Tasks.Task<WindowsApplication.Service_Products.ProductDto> GetProductByIDAsync(long productId);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducsService/GetAllProducts", ReplyAction="http://tempuri.org/IProducsService/GetAllProductsResponse")]
-        WindowsApplication.Service_Products.Products[] GetAllProducts();
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducs/GetAllProducts", ReplyAction="http://tempuri.org/IProducs/GetAllProductsResponse")]
+        WindowsApplication.Service_Products.ProductDto[] GetAllProducts();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducsService/GetAllProducts", ReplyAction="http://tempuri.org/IProducsService/GetAllProductsResponse")]
-        System.Threading.Tasks.Task<WindowsApplication.Service_Products.Products[]> GetAllProductsAsync();
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProducs/GetAllProducts", ReplyAction="http://tempuri.org/IProducs/GetAllProductsResponse")]
+        System.Threading.Tasks.Task<WindowsApplication.Service_Products.ProductDto[]> GetAllProductsAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IProducsServiceChannel : WindowsApplication.Service_Products.IProducsService, System.ServiceModel.IClientChannel {
+    public interface IProducsChannel : WindowsApplication.Service_Products.IProducs, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ProducsServiceClient : System.ServiceModel.ClientBase<WindowsApplication.Service_Products.IProducsService>, WindowsApplication.Service_Products.IProducsService {
+    public partial class ProducsClient : System.ServiceModel.ClientBase<WindowsApplication.Service_Products.IProducs>, WindowsApplication.Service_Products.IProducs {
         
-        public ProducsServiceClient() {
+        public ProducsClient() {
         }
         
-        public ProducsServiceClient(string endpointConfigurationName) : 
+        public ProducsClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public ProducsServiceClient(string endpointConfigurationName, string remoteAddress) : 
+        public ProducsClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public ProducsServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ProducsClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public ProducsServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ProducsClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
@@ -209,19 +209,19 @@ namespace WindowsApplication.Service_Products {
             return base.Channel.GetDataUsingDataContractAsync(composite);
         }
         
-        public WindowsApplication.Service_Products.Products GetProductByID(long productId) {
+        public WindowsApplication.Service_Products.ProductDto GetProductByID(long productId) {
             return base.Channel.GetProductByID(productId);
         }
         
-        public System.Threading.Tasks.Task<WindowsApplication.Service_Products.Products> GetProductByIDAsync(long productId) {
+        public System.Threading.Tasks.Task<WindowsApplication.Service_Products.ProductDto> GetProductByIDAsync(long productId) {
             return base.Channel.GetProductByIDAsync(productId);
         }
         
-        public WindowsApplication.Service_Products.Products[] GetAllProducts() {
+        public WindowsApplication.Service_Products.ProductDto[] GetAllProducts() {
             return base.Channel.GetAllProducts();
         }
         
-        public System.Threading.Tasks.Task<WindowsApplication.Service_Products.Products[]> GetAllProductsAsync() {
+        public System.Threading.Tasks.Task<WindowsApplication.Service_Products.ProductDto[]> GetAllProductsAsync() {
             return base.Channel.GetAllProductsAsync();
         }
     }
