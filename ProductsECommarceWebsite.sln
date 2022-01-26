@@ -13,6 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductWcfServiceHost", "ProductWcfServiceHost\ProductWcfServiceHost.csproj", "{1FBD6AE0-5A6C-48EC-A714-5C106A3619AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AEFD6D7D-1772-43C2-BA3F-C8F7DA14642A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApplication", "WindowsApplication\WindowsApplication.csproj", "{FF7235AF-7F73-48E1-977F-5207CE4887DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FBD6AE0-5A6C-48EC-A714-5C106A3619AE} = {1FBD6AE0-5A6C-48EC-A714-5C106A3619AE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +38,10 @@ Global
 		{1FBD6AE0-5A6C-48EC-A714-5C106A3619AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FBD6AE0-5A6C-48EC-A714-5C106A3619AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FBD6AE0-5A6C-48EC-A714-5C106A3619AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7235AF-7F73-48E1-977F-5207CE4887DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7235AF-7F73-48E1-977F-5207CE4887DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7235AF-7F73-48E1-977F-5207CE4887DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7235AF-7F73-48E1-977F-5207CE4887DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +50,7 @@ Global
 		{14545595-A372-4D62-89E7-879AE2861D44} = {9C703C8A-47B6-4D0E-8227-ADA221B2BEA3}
 		{89873921-461A-4D74-80AD-111EA2474A07} = {5C8BAE4E-120B-4D69-8509-3861513BA664}
 		{1FBD6AE0-5A6C-48EC-A714-5C106A3619AE} = {9C703C8A-47B6-4D0E-8227-ADA221B2BEA3}
+		{FF7235AF-7F73-48E1-977F-5207CE4887DA} = {AEFD6D7D-1772-43C2-BA3F-C8F7DA14642A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {57F3573F-3B2B-402C-B8C7-1A582225F561}
