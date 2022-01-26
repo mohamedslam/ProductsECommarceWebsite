@@ -50,7 +50,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\DAL\DALProducts.cs" />
+    <Compile Include="DAL\DALProducts.cs" />
     <Compile Include="Data\AccountantPeriodYear.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -486,7 +486,7 @@
     <Compile Include="Data\CustomerInfo.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class\DAL\DALBase.cs" />
+    <Compile Include="DAL\DALBase.cs" />
     <Compile Include="Data\DTLBalanceForFirstPeriod.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -1713,6 +1713,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Class\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
