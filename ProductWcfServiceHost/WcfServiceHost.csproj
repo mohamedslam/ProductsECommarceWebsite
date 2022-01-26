@@ -67,8 +67,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CustomersService.svc" />
-    <Content Include="ProductService.svc" />
+    <Content Include="Services\CustomersService.svc" />
+    <Content Include="Services\ProductService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
