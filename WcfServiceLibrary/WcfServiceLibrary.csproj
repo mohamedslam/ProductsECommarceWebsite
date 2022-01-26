@@ -1686,7 +1686,7 @@
     </Compile>
     <Compile Include="Interfaces\IProducsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ProducsService.cs" />
+    <Compile Include="Services\ProductsService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

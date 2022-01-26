@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.ServiceModel.Web;
 using System.Text;
 
-namespace ProductWcfServiceHost
+namespace WcfServiceLibrary
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
-    // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
-    public class Service1 : IService1
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
+    public class ProductsService : IProducsService
     {
-        public string GetData(int value)
+        public List<Products> GetAllProducts(long productId)
         {
-            return string.Format("You entered: {0}", value);
+            return new DALProducts().GetProducts();
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
@@ -29,5 +27,12 @@ namespace ProductWcfServiceHost
             }
             return composite;
         }
+
+        public Products GetProductByID(long productId)
+        {
+            return new DALProducts().GetProductById(productId);
+        }
+
+      
     }
 }
