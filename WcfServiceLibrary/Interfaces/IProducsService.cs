@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTO.Products;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -18,7 +19,7 @@ namespace WcfServiceLibrary
         [OperationContract]
         Products GetProductByID(long productId);
         [OperationContract]
-        List<Products> GetAllProducts(long productId);
+        List<Products> GetAllProducts();
         // TODO: Add your service operations here
     }
 
@@ -45,13 +46,5 @@ namespace WcfServiceLibrary
         }
     }
 
-    public class Products
-    {
-        [DataMember]
-        public long ProductId { get; set; }
-        [DataMember]
-        public string  ProductName { get; set; }
-        [DataMember]
-        public double? Price { get; set; }
-    }
+
 }

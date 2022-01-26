@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTO.Products;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace WcfServiceLibrary
     {
         public List<Products> GetProducts()
         {
-            var rst = from t in dbContecxt.ItemControls
+            var rst = from t in DbContecxt.ItemControls
                       select new Products {
                           ProductId=t.ID,
                           Price=t.DefultPrice,
@@ -20,7 +21,7 @@ namespace WcfServiceLibrary
         }
         public Products GetProductById(long ProductID)
         {
-            var rst = (from t in dbContecxt.ItemControls
+            var rst = (from t in DbContecxt.ItemControls
                       where t.ID== ProductID
                       select new Products
                       {

@@ -19,7 +19,8 @@ namespace WindowsApplication
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-
+            Service_Products.ProducsServiceClient _clientData = new Service_Products.ProducsServiceClient();
+            dgProducts.DataSource = _clientData.GetAllProducts();
         }
     }
 }

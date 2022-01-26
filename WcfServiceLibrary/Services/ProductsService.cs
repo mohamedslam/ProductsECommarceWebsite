@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTO.Products;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -10,7 +11,7 @@ namespace WcfServiceLibrary
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
     public class ProductsService : IProducsService
     {
-        public List<Products> GetAllProducts(long productId)
+        public List<Products> GetAllProducts()
         {
             return new DALProducts().GetProducts();
         }

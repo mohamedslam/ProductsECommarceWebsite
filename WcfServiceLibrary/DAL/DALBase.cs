@@ -9,7 +9,7 @@ namespace WcfServiceLibrary.Class
 {
    public class DALBase
     {
-        public ProductsEntities dbContecxt { get; set; }
+        public ProductsEntities DbContecxt = new ProductsEntities();
 
     }
 }
